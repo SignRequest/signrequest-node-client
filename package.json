@@ -1,6 +1,6 @@
 {
   "name": "signrequest-client",
-  "version": "v1",
+  "version": "1.0.0",
   "description": "API client for SignRequest.com",
   "license": "Unlicense",
   "main": "src/index.js",

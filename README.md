@@ -49,7 +49,7 @@ Token.apiKeyPrefix["Authorization"] = "Token";
 var api = new SignrequestClient.DocumentsApi();
 
 var data = new SignrequestClient.Document();
-data.fileFromUrl =
+data.file_from_url =
   "https://docs.google.com/document/d/1oI2R1SxfMNZXiz3jCQvorpoklF9xq_dCJnOpkI-zo80/edit?usp=sharing";
 
 var callback = function(error, data, response) {

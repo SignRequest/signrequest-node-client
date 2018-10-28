@@ -140,7 +140,7 @@ var apiInstance = new SignrequestClient.SignrequestsApi();
 
 var opts = { 
   'who': "who_example", // String | 
-  'fromEmail': "fromEmail_example", // String | 
+  'from_email': "from_email_example", // String | 
   'page': 56, // Number | A page number within the paginated result set.
   'limit': 56 // Number | Number of results to return per page.
 };
@@ -160,7 +160,7 @@ apiInstance.signrequestsList(opts, callback);
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **who** | **String**|  | [optional] 
- **fromEmail** | **String**|  | [optional] 
+ **from_email** | **String**|  | [optional] 
  **page** | **Number**| A page number within the paginated result set. | [optional] 
  **limit** | **Number**| Number of results to return per page. | [optional] 
 

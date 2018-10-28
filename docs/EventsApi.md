@@ -30,19 +30,19 @@ Token.apiKey = 'YOUR API KEY';
 var apiInstance = new SignrequestClient.EventsApi();
 
 var opts = { 
-  'documentUuid': "documentUuid_example", // String | 
-  'documentExternalId': "documentExternalId_example", // String | 
-  'documentSignrequestWho': "documentSignrequestWho_example", // String | 
-  'documentSignrequestFromEmail': "documentSignrequestFromEmail_example", // String | 
-  'documentStatus': "documentStatus_example", // String | 
-  'documentUserEmail': "documentUserEmail_example", // String | 
-  'documentUserFirstName': "documentUserFirstName_example", // String | 
-  'documentUserLastName': "documentUserLastName_example", // String | 
+  'document__uuid': "document__uuid_example", // String | 
+  'document__external_id': "document__external_id_example", // String | 
+  'document__signrequest__who': "document__signrequest__who_example", // String | 
+  'document__signrequest__from_email': "document__signrequest__from_email_example", // String | 
+  'document__status': "document__status_example", // String | 
+  'document__user__email': "document__user__email_example", // String | 
+  'document__user__first_name': "document__user__first_name_example", // String | 
+  'document__user__last_name': "document__user__last_name_example", // String | 
   'delivered': "delivered_example", // String | 
-  'deliveredOn': "deliveredOn_example", // String | 
+  'delivered_on': "delivered_on_example", // String | 
   'timestamp': "timestamp_example", // String | 
   'status': "status_example", // String | 
-  'eventType': "eventType_example", // String | 
+  'event_type': "event_type_example", // String | 
   'page': 56, // Number | A page number within the paginated result set.
   'limit': 56 // Number | Number of results to return per page.
 };
@@ -61,19 +61,19 @@ apiInstance.eventsList(opts, callback);
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **documentUuid** | **String**|  | [optional] 
- **documentExternalId** | **String**|  | [optional] 
- **documentSignrequestWho** | **String**|  | [optional] 
- **documentSignrequestFromEmail** | **String**|  | [optional] 
- **documentStatus** | **String**|  | [optional] 
- **documentUserEmail** | **String**|  | [optional] 
- **documentUserFirstName** | **String**|  | [optional] 
- **documentUserLastName** | **String**|  | [optional] 
+ **document__uuid** | **String**|  | [optional] 
+ **document__external_id** | **String**|  | [optional] 
+ **document__signrequest__who** | **String**|  | [optional] 
+ **document__signrequest__from_email** | **String**|  | [optional] 
+ **document__status** | **String**|  | [optional] 
+ **document__user__email** | **String**|  | [optional] 
+ **document__user__first_name** | **String**|  | [optional] 
+ **document__user__last_name** | **String**|  | [optional] 
  **delivered** | **String**|  | [optional] 
- **deliveredOn** | **String**|  | [optional] 
+ **delivered_on** | **String**|  | [optional] 
  **timestamp** | **String**|  | [optional] 
  **status** | **String**|  | [optional] 
- **eventType** | **String**|  | [optional] 
+ **event_type** | **String**|  | [optional] 
  **page** | **Number**| A page number within the paginated result set. | [optional] 
  **limit** | **Number**| Number of results to return per page. | [optional] 
 

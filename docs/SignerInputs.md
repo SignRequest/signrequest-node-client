@@ -4,12 +4,12 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **type** | **String** |  | [optional] 
-**pageIndex** | **Number** |  | 
+**page_index** | **Number** |  | 
 **text** | **String** |  | [optional] 
-**checkboxValue** | **Boolean** |  | [optional] 
-**dateValue** | **Date** |  | [optional] 
-**externalId** | **String** |  | [optional] 
-**placeholderUuid** | **String** |  | [optional] 
+**checkbox_value** | **Boolean** |  | [optional] 
+**date_value** | **Date** |  | [optional] 
+**external_id** | **String** |  | [optional] 
+**placeholder_uuid** | **String** |  | [optional] 
 
 
 <a name="TypeEnum"></a>

@@ -3,7 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**objectType** | **String** |  | 
-**objectId** | **String** |  | 
+**object_type** | **String** |  | 
+**object_id** | **String** |  | 
+**uid** | **String** |  | [optional] 
 
 

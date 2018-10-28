@@ -138,13 +138,13 @@ Token.apiKey = 'YOUR API KEY';
 var apiInstance = new SignrequestClient.DocumentsApi();
 
 var opts = { 
-  'externalId': "externalId_example", // String | 
-  'signrequestWho': "signrequestWho_example", // String | 
-  'signrequestFromEmail': "signrequestFromEmail_example", // String | 
+  'external_id': "external_id_example", // String | 
+  'signrequest__who': "signrequest__who_example", // String | 
+  'signrequest__from_email': "signrequest__from_email_example", // String | 
   'status': "status_example", // String | 
-  'userEmail': "userEmail_example", // String | 
-  'userFirstName': "userFirstName_example", // String | 
-  'userLastName': "userLastName_example", // String | 
+  'user__email': "user__email_example", // String | 
+  'user__first_name': "user__first_name_example", // String | 
+  'user__last_name': "user__last_name_example", // String | 
   'created': "created_example", // String | 
   'modified': "modified_example", // String | 
   'page': 56, // Number | A page number within the paginated result set.
@@ -165,13 +165,13 @@ apiInstance.documentsList(opts, callback);
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **externalId** | **String**|  | [optional] 
- **signrequestWho** | **String**|  | [optional] 
- **signrequestFromEmail** | **String**|  | [optional] 
+ **external_id** | **String**|  | [optional] 
+ **signrequest__who** | **String**|  | [optional] 
+ **signrequest__from_email** | **String**|  | [optional] 
  **status** | **String**|  | [optional] 
- **userEmail** | **String**|  | [optional] 
- **userFirstName** | **String**|  | [optional] 
- **userLastName** | **String**|  | [optional] 
+ **user__email** | **String**|  | [optional] 
+ **user__first_name** | **String**|  | [optional] 
+ **user__last_name** | **String**|  | [optional] 
  **created** | **String**|  | [optional] 
  **modified** | **String**|  | [optional] 
  **page** | **Number**| A page number within the paginated result set. | [optional] 

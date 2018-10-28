@@ -3,11 +3,11 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**signerIndex** | **Number** |  | [optional] 
-**needsToSign** | **Boolean** |  | [optional] 
-**approveOnly** | **Boolean** |  | [optional] 
-**notifyOnly** | **Boolean** |  | [optional] 
-**inPerson** | **Boolean** |  | [optional] 
+**signer_index** | **Number** |  | [optional] 
+**needs_to_sign** | **Boolean** |  | [optional] 
+**approve_only** | **Boolean** |  | [optional] 
+**notify_only** | **Boolean** |  | [optional] 
+**in_person** | **Boolean** |  | [optional] 
 **order** | **Number** |  | [optional] 
 **placeholders** | [**[Placeholder]**](Placeholder.md) |  | [optional] 
 

@@ -84,8 +84,8 @@ Token.apiKey = 'YOUR API KEY';
 var apiInstance = new SignrequestClient.DocumentAttachmentsApi();
 
 var opts = { 
-  'documentUuid': "documentUuid_example", // String | 
-  'documentExternalId': "documentExternalId_example", // String | 
+  'document__uuid': "document__uuid_example", // String | 
+  'document__external_id': "document__external_id_example", // String | 
   'created': "created_example", // String | 
   'page': 56, // Number | A page number within the paginated result set.
   'limit': 56 // Number | Number of results to return per page.
@@ -105,8 +105,8 @@ apiInstance.documentAttachmentsList(opts, callback);
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **documentUuid** | **String**|  | [optional] 
- **documentExternalId** | **String**|  | [optional] 
+ **document__uuid** | **String**|  | [optional] 
+ **document__external_id** | **String**|  | [optional] 
  **created** | **String**|  | [optional] 
  **page** | **Number**| A page number within the paginated result set. | [optional] 
  **limit** | **Number**| Number of results to return per page. | [optional] 

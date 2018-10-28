@@ -26,7 +26,7 @@
     if (!root.SignrequestClient) {
       root.SignrequestClient = {};
     }
-    root.SignrequestClient.RequiredAttachment = factory(root.SignrequestClient.ApiClient);
+    root.SignrequestClient.Team1 = factory(root.SignrequestClient.ApiClient);
   }
 }(this, function(ApiClient) {
   'use strict';
@@ -35,30 +35,30 @@
 
 
   /**
-   * The RequiredAttachment model module.
-   * @module model/RequiredAttachment
+   * The Team1 model module.
+   * @module model/Team1
    * @version v1
    */
 
   /**
-   * Constructs a new <code>RequiredAttachment</code>.
-   * @alias module:model/RequiredAttachment
+   * Constructs a new <code>Team1</code>.
+   * @alias module:model/Team1
    * @class
-   * @param name {String} 
    */
-  var exports = function(name) {
+  var exports = function() {
     var _this = this;
 
-    _this['name'] = name;
+
+
 
   };
 
   /**
-   * Constructs a <code>RequiredAttachment</code> from a plain JavaScript object, optionally creating a new instance.
+   * Constructs a <code>Team1</code> from a plain JavaScript object, optionally creating a new instance.
    * Copies all relevant properties from <code>data</code> to <code>obj</code> if supplied or a new instance if not.
    * @param {Object} data The plain JavaScript object bearing properties of interest.
-   * @param {module:model/RequiredAttachment} obj Optional instance to populate.
-   * @return {module:model/RequiredAttachment} The populated <code>RequiredAttachment</code> instance.
+   * @param {module:model/Team1} obj Optional instance to populate.
+   * @return {module:model/Team1} The populated <code>Team1</code> instance.
    */
   exports.constructFromObject = function(data, obj) {
     if (data) {
@@ -67,8 +67,11 @@
       if (data.hasOwnProperty('name')) {
         obj['name'] = ApiClient.convertToType(data['name'], 'String');
       }
-      if (data.hasOwnProperty('uuid')) {
-        obj['uuid'] = ApiClient.convertToType(data['uuid'], 'String');
+      if (data.hasOwnProperty('subdomain')) {
+        obj['subdomain'] = ApiClient.convertToType(data['subdomain'], 'String');
+      }
+      if (data.hasOwnProperty('url')) {
+        obj['url'] = ApiClient.convertToType(data['url'], 'String');
       }
     }
     return obj;
@@ -79,9 +82,13 @@
    */
   exports.prototype['name'] = undefined;
   /**
-   * @member {String} uuid
+   * @member {String} subdomain
    */
-  exports.prototype['uuid'] = undefined;
+  exports.prototype['subdomain'] = undefined;
+  /**
+   * @member {String} url
+   */
+  exports.prototype['url'] = undefined;
 
 
 

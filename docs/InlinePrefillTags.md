@@ -3,9 +3,9 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**externalId** | **String** |  | [optional] 
+**external_id** | **String** |  | [optional] 
 **text** | **String** |  | [optional] 
-**checkboxValue** | **Boolean** |  | [optional] 
-**dateValue** | **Date** |  | [optional] 
+**checkbox_value** | **Boolean** |  | [optional] 
+**date_value** | **Date** |  | [optional] 
 
 

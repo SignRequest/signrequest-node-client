@@ -5,11 +5,12 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **uuid** | **String** |  | [optional] 
 **status** | **String** |  | [optional] 
-**eventType** | **String** |  | [optional] 
+**event_type** | **String** |  | [optional] 
 **delivered** | **Boolean** |  | [optional] 
-**deliveredOn** | **Date** |  | [optional] 
-**callbackStatusCode** | **Number** |  | [optional] 
+**delivered_on** | **Date** |  | [optional] 
+**callback_status_code** | **Number** |  | [optional] 
 **timestamp** | **Date** |  | [optional] 
+**team** | [**Team1**](Team1.md) |  | [optional] 
 **document** | [**Document**](Document.md) |  | [optional] 
 **signer** | [**Signer**](Signer.md) |  | [optional] 
 

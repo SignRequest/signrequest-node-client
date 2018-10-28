@@ -30,12 +30,12 @@ Token.apiKey = 'YOUR API KEY';
 var apiInstance = new SignrequestClient.TeamMembersApi();
 
 var opts = { 
-  'isActive': "isActive_example", // String | 
-  'isOwner': "isOwner_example", // String | 
-  'isAdmin': "isAdmin_example", // String | 
-  'userEmail': "userEmail_example", // String | 
-  'userFirstName': "userFirstName_example", // String | 
-  'userLastName': "userLastName_example", // String | 
+  'is_active': "is_active_example", // String | 
+  'is_owner': "is_owner_example", // String | 
+  'is_admin': "is_admin_example", // String | 
+  'user__email': "user__email_example", // String | 
+  'user__first_name': "user__first_name_example", // String | 
+  'user__last_name': "user__last_name_example", // String | 
   'page': 56, // Number | A page number within the paginated result set.
   'limit': 56 // Number | Number of results to return per page.
 };
@@ -54,12 +54,12 @@ apiInstance.teamMembersList(opts, callback);
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **isActive** | **String**|  | [optional] 
- **isOwner** | **String**|  | [optional] 
- **isAdmin** | **String**|  | [optional] 
- **userEmail** | **String**|  | [optional] 
- **userFirstName** | **String**|  | [optional] 
- **userLastName** | **String**|  | [optional] 
+ **is_active** | **String**|  | [optional] 
+ **is_owner** | **String**|  | [optional] 
+ **is_admin** | **String**|  | [optional] 
+ **user__email** | **String**|  | [optional] 
+ **user__first_name** | **String**|  | [optional] 
+ **user__last_name** | **String**|  | [optional] 
  **page** | **Number**| A page number within the paginated result set. | [optional] 
  **limit** | **Number**| Number of results to return per page. | [optional] 
 

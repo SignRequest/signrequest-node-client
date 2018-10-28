@@ -8,8 +8,8 @@ Name | Type | Description | Notes
 **url** | **String** |  | [optional] 
 **logo** | **String** |  | [optional] 
 **phone** | **String** |  | [optional] 
-**primaryColor** | **String** |  | [optional] 
-**eventsCallbackUrl** | **String** |  | [optional] 
+**primary_color** | **String** |  | [optional] 
+**events_callback_url** | **String** |  | [optional] 
 **members** | [**[InlineTeamMember]**](InlineTeamMember.md) |  | [optional] 
 
 

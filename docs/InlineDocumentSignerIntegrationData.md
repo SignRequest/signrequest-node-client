@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **integration** | **String** |  | [optional] 
-**integrationData** | **String** |  | [optional] 
+**integration_data** | **String** |  | [optional] 
 
 
 <a name="IntegrationEnum"></a>

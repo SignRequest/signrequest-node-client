@@ -6,8 +6,9 @@ Name | Type | Description | Notes
 **uuid** | **String** |  | [optional] 
 **url** | **String** |  | [optional] 
 **user** | [**User**](User.md) |  | [optional] 
-**isAdmin** | **Boolean** |  | [optional] 
-**isActive** | **Boolean** |  | [optional] 
-**isOwner** | **Boolean** |  | [optional] 
+**team** | [**Team1**](Team1.md) |  | [optional] 
+**is_admin** | **Boolean** |  | [optional] 
+**is_active** | **Boolean** |  | [optional] 
+**is_owner** | **Boolean** |  | [optional] 
 
 

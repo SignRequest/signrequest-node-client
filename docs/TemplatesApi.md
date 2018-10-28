@@ -24,8 +24,7 @@ var defaultClient = SignrequestClient.ApiClient.instance;
 // Configure API key authorization: Token
 var Token = defaultClient.authentications['Token'];
 Token.apiKey = 'YOUR API KEY';
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//Token.apiKeyPrefix = 'Token';
+Token.apiKeyPrefix = 'Token';
 
 var apiInstance = new SignrequestClient.TemplatesApi();
 
@@ -80,8 +79,7 @@ var defaultClient = SignrequestClient.ApiClient.instance;
 // Configure API key authorization: Token
 var Token = defaultClient.authentications['Token'];
 Token.apiKey = 'YOUR API KEY';
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//Token.apiKeyPrefix = 'Token';
+Token.apiKeyPrefix = 'Token';
 
 var apiInstance = new SignrequestClient.TemplatesApi();
 

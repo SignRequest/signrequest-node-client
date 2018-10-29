@@ -1,6 +1,6 @@
 # signrequest-client
 
-SignrequestClient - JavaScript client for SignRequest.com
+SignrequestClient - JavaScript client for [SignRequest.com](https://signrequest.com/)
 
 [![npm version](https://badge.fury.io/js/signrequest-client.svg)](https://badge.fury.io/js/signrequest-client)
 
@@ -33,6 +33,10 @@ module: {
   ];
 }
 ```
+
+## API Documentation
+Full API documentation, including code samples, can be found here:
+https://signrequest.com/api/v1/docs/
 
 ## Getting Started
 

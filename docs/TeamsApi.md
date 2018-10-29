@@ -258,7 +258,7 @@ var callback = function(error, data, response) {
     console.log('API called successfully. Returned data: ' + data);
   }
 };
-apiInstance.teamsRead(subdomain, , callback);
+apiInstance.teamsRead(subdomain, callback);
 ```
 
 ### Parameters

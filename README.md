@@ -2,6 +2,8 @@
 
 SignrequestClient - JavaScript client for SignRequest.com
 
+[![npm version](https://badge.fury.io/js/signrequest-client.svg)](https://badge.fury.io/js/signrequest-client)
+
 ## Installation
 
 ### For [Node.js](https://nodejs.org/)

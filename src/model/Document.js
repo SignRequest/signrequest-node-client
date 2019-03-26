@@ -17,10 +17,10 @@
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module.
-    define(['ApiClient', 'model/DocumentAttachment', 'model/FileFromSf', 'model/InlineIntegrationData', 'model/InlinePrefillTags', 'model/SigningLog', 'model/Signrequest', 'model/Team1', 'model/User'], factory);
+    define(['ApiClient', 'model/DocumentAttachment', 'model/FileFromSf', 'model/InlineIntegrationData', 'model/InlinePrefillTags', 'model/SigningLog', 'model/SignRequest', 'model/Team1', 'model/User'], factory);
   } else if (typeof module === 'object' && module.exports) {
     // CommonJS-like environments that support module.exports, like Node.
-    module.exports = factory(require('../ApiClient'), require('./DocumentAttachment'), require('./FileFromSf'), require('./InlineIntegrationData'), require('./InlinePrefillTags'), require('./SigningLog'), require('./Signrequest'), require('./Team1'), require('./User'));
+    module.exports = factory(require('../ApiClient'), require('./DocumentAttachment'), require('./FileFromSf'), require('./InlineIntegrationData'), require('./InlinePrefillTags'), require('./SigningLog'), require('./SignRequest'), require('./Team1'), require('./User'));
   } else {
     // Browser globals (root is window)
     if (!root.SignrequestClient) {

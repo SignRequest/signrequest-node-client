@@ -1,4 +1,4 @@
-# SignrequestClient.Team1
+# SignrequestClient.DocumentTeam
 
 ## Properties
 Name | Type | Description | Notes

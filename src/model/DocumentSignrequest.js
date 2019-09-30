@@ -25,7 +25,7 @@
     if (!root.SignrequestClient) {
       root.SignrequestClient = {};
     }
-    root.SignrequestClient.InlineSignRequest = factory(root.SignrequestClient.ApiClient, root.SignrequestClient.RequiredAttachment, root.SignrequestClient.Signer);
+    root.SignrequestClient.DocumentSignrequest = factory(root.SignrequestClient.ApiClient, root.SignrequestClient.RequiredAttachment, root.SignrequestClient.Signer);
   }
 }(this, function(ApiClient, RequiredAttachment, Signer) {
   'use strict';
@@ -34,14 +34,14 @@
 
 
   /**
-   * The InlineSignRequest model module.
-   * @module model/InlineSignRequest
+   * The DocumentSignrequest model module.
+   * @module model/DocumentSignrequest
    * @version 1.1.0
    */
 
   /**
-   * Constructs a new <code>InlineSignRequest</code>.
-   * @alias module:model/InlineSignRequest
+   * Constructs a new <code>DocumentSignrequest</code>.
+   * @alias module:model/DocumentSignrequest
    * @class
    */
   var exports = function() {
@@ -71,11 +71,11 @@
   };
 
   /**
-   * Constructs a <code>InlineSignRequest</code> from a plain JavaScript object, optionally creating a new instance.
+   * Constructs a <code>DocumentSignrequest</code> from a plain JavaScript object, optionally creating a new instance.
    * Copies all relevant properties from <code>data</code> to <code>obj</code> if supplied or a new instance if not.
    * @param {Object} data The plain JavaScript object bearing properties of interest.
-   * @param {module:model/InlineSignRequest} obj Optional instance to populate.
-   * @return {module:model/InlineSignRequest} The populated <code>InlineSignRequest</code> instance.
+   * @param {module:model/DocumentSignrequest} obj Optional instance to populate.
+   * @return {module:model/DocumentSignrequest} The populated <code>DocumentSignrequest</code> instance.
    */
   exports.constructFromObject = function(data, obj) {
     if (data) {
@@ -233,7 +233,7 @@
   exports.prototype['message'] = undefined;
   /**
    * `m`: only me, `mo`: me and others, `o`: only others
-   * @member {module:model/InlineSignRequest.WhoEnum} who
+   * @member {module:model/DocumentSignrequest.WhoEnum} who
    */
   exports.prototype['who'] = undefined;
   /**

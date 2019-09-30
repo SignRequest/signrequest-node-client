@@ -30,7 +30,7 @@
   var instance;
 
   beforeEach(function() {
-    instance = new SignrequestClient.InlineResponse2009();
+    instance = new SignrequestClient.DocumentSigningLog();
   });
 
   var getProperty = function(object, getter, property) {
@@ -49,34 +49,22 @@
       object[property] = value;
   }
 
-  describe('InlineResponse2009', function() {
-    it('should create an instance of InlineResponse2009', function() {
-      // uncomment below and update the code to test InlineResponse2009
-      //var instance = new SignrequestClient.InlineResponse2009();
-      //expect(instance).to.be.a(SignrequestClient.InlineResponse2009);
+  describe('DocumentSigningLog', function() {
+    it('should create an instance of DocumentSigningLog', function() {
+      // uncomment below and update the code to test DocumentSigningLog
+      //var instance = new SignrequestClient.DocumentSigningLog();
+      //expect(instance).to.be.a(SignrequestClient.DocumentSigningLog);
     });
 
-    it('should have the property count (base name: "count")', function() {
-      // uncomment below and update the code to test the property count
-      //var instance = new SignrequestClient.InlineResponse2009();
+    it('should have the property pdf (base name: "pdf")', function() {
+      // uncomment below and update the code to test the property pdf
+      //var instance = new SignrequestClient.DocumentSigningLog();
       //expect(instance).to.be();
     });
 
-    it('should have the property next (base name: "next")', function() {
-      // uncomment below and update the code to test the property next
-      //var instance = new SignrequestClient.InlineResponse2009();
-      //expect(instance).to.be();
-    });
-
-    it('should have the property previous (base name: "previous")', function() {
-      // uncomment below and update the code to test the property previous
-      //var instance = new SignrequestClient.InlineResponse2009();
-      //expect(instance).to.be();
-    });
-
-    it('should have the property results (base name: "results")', function() {
-      // uncomment below and update the code to test the property results
-      //var instance = new SignrequestClient.InlineResponse2009();
+    it('should have the property security_hash (base name: "security_hash")', function() {
+      // uncomment below and update the code to test the property security_hash
+      //var instance = new SignrequestClient.DocumentSigningLog();
       //expect(instance).to.be();
     });
 

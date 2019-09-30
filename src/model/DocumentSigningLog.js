@@ -25,7 +25,7 @@
     if (!root.SignrequestClient) {
       root.SignrequestClient = {};
     }
-    root.SignrequestClient.FileFromSf = factory(root.SignrequestClient.ApiClient);
+    root.SignrequestClient.DocumentSigningLog = factory(root.SignrequestClient.ApiClient);
   }
 }(this, function(ApiClient) {
   'use strict';
@@ -34,62 +34,54 @@
 
 
   /**
-   * The FileFromSf model module.
-   * @module model/FileFromSf
+   * The DocumentSigningLog model module.
+   * @module model/DocumentSigningLog
    * @version 1.1.0
    */
 
   /**
-   * Constructs a new <code>FileFromSf</code>.
-   * @alias module:model/FileFromSf
+   * Constructs a new <code>DocumentSigningLog</code>.
+   * @alias module:model/DocumentSigningLog
    * @class
-   * @param object_type {String} 
-   * @param object_id {String} 
    */
-  var exports = function(object_type, object_id) {
+  var exports = function() {
     var _this = this;
 
-    _this['object_type'] = object_type;
-    _this['object_id'] = object_id;
+
 
   };
 
   /**
-   * Constructs a <code>FileFromSf</code> from a plain JavaScript object, optionally creating a new instance.
+   * Constructs a <code>DocumentSigningLog</code> from a plain JavaScript object, optionally creating a new instance.
    * Copies all relevant properties from <code>data</code> to <code>obj</code> if supplied or a new instance if not.
    * @param {Object} data The plain JavaScript object bearing properties of interest.
-   * @param {module:model/FileFromSf} obj Optional instance to populate.
-   * @return {module:model/FileFromSf} The populated <code>FileFromSf</code> instance.
+   * @param {module:model/DocumentSigningLog} obj Optional instance to populate.
+   * @return {module:model/DocumentSigningLog} The populated <code>DocumentSigningLog</code> instance.
    */
   exports.constructFromObject = function(data, obj) {
     if (data) {
       obj = obj || new exports();
 
-      if (data.hasOwnProperty('object_type')) {
-        obj['object_type'] = ApiClient.convertToType(data['object_type'], 'String');
+      if (data.hasOwnProperty('pdf')) {
+        obj['pdf'] = ApiClient.convertToType(data['pdf'], 'String');
       }
-      if (data.hasOwnProperty('object_id')) {
-        obj['object_id'] = ApiClient.convertToType(data['object_id'], 'String');
-      }
-      if (data.hasOwnProperty('uid')) {
-        obj['uid'] = ApiClient.convertToType(data['uid'], 'String');
+      if (data.hasOwnProperty('security_hash')) {
+        obj['security_hash'] = ApiClient.convertToType(data['security_hash'], 'String');
       }
     }
     return obj;
   }
 
   /**
-   * @member {String} object_type
+   * Temporary URL to signing log, expires in five minutes
+   * @member {String} pdf
    */
-  exports.prototype['object_type'] = undefined;
+  exports.prototype['pdf'] = undefined;
   /**
-   * @member {String} object_id
+   * SHA256 hash of PDF contents
+   * @member {String} security_hash
    */
-  exports.prototype['object_id'] = undefined;
-  /**
-   * @member {String} uid
-   */
-  exports.prototype['uid'] = undefined;
+  exports.prototype['security_hash'] = undefined;
 
 
 

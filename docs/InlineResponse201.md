@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**cancelled** | **Boolean** |  | 
 **detail** | **String** |  | 
+**cancelled** | **Boolean** |  | 
 
 
 <a name="DetailEnum"></a>

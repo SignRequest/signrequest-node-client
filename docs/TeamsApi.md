@@ -5,6 +5,7 @@ All URIs are relative to *https://signrequest.com/api/v1*
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**teamsCreate**](TeamsApi.md#teamsCreate) | **POST** /teams/ | Create a Team
+[**teamsDelete**](TeamsApi.md#teamsDelete) | **DELETE** /teams/{subdomain}/ | Delete a Team
 [**teamsInviteMember**](TeamsApi.md#teamsInviteMember) | **POST** /teams/{subdomain}/invite_member/ | Invite a Team Member
 [**teamsList**](TeamsApi.md#teamsList) | **GET** /teams/ | Retrieve a list of Teams
 [**teamsPartialUpdate**](TeamsApi.md#teamsPartialUpdate) | **PATCH** /teams/{subdomain}/ | Update a Team
@@ -53,6 +54,58 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**Team**](Team.md)
+
+### Authorization
+
+[Token](../README.md#Token)
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
+<a name="teamsDelete"></a>
+# **teamsDelete**
+> teamsDelete(subdomain, )
+
+Delete a Team
+
+Required fields are **name** and **subdomain** where the subdomain is globally unique. Use **POST** to create a Team. To update a field on a Team use **PATCH**.  To use the API on behalf of a particular team change the endpoint to: *https://_**{{ subdomain }}**.signrequest.com/api/v1/...*  To invite new team members you can use **POST** {\&quot;email\&quot;:\&quot;**email-of-member-to-invite@example.com**\&quot;,\&quot;is_admin\&quot;:false,\&quot;is_owner\&quot;:false} to: *https://signrequest.com/api/v1/teams/_**{{ subdomain }}**_/invite_member/_*
+
+### Example
+```javascript
+var SignrequestClient = require('signrequest-client');
+var defaultClient = SignrequestClient.ApiClient.instance;
+
+// Configure API key authorization: Token
+var Token = defaultClient.authentications['Token'];
+Token.apiKey = 'YOUR API KEY';
+Token.apiKeyPrefix = 'Token';
+
+var apiInstance = new SignrequestClient.TeamsApi();
+
+var subdomain = "subdomain_example"; // String | 
+
+
+var callback = function(error, data, response) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('API called successfully.');
+  }
+};
+apiInstance.teamsDelete(subdomain, , callback);
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **subdomain** | **String**|  | 
+
+### Return type
+
+null (empty response body)
 
 ### Authorization
 
@@ -258,7 +311,7 @@ var callback = function(error, data, response) {
     console.log('API called successfully. Returned data: ' + data);
   }
 };
-apiInstance.teamsRead(subdomain, callback);
+apiInstance.teamsRead(subdomain, , callback);
 ```
 
 ### Parameters

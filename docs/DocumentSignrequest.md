@@ -1,4 +1,4 @@
-# SignrequestClient.InlineSignRequest
+# SignrequestClient.DocumentSignrequest
 
 ## Properties
 Name | Type | Description | Notes

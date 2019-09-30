@@ -94,7 +94,7 @@ var callback = function(error, data, response) {
     console.log('API called successfully.');
   }
 };
-apiInstance.webhooksDelete(uuid, callback);
+apiInstance.webhooksDelete(uuid, , callback);
 ```
 
 ### Parameters
@@ -256,7 +256,7 @@ var callback = function(error, data, response) {
     console.log('API called successfully. Returned data: ' + data);
   }
 };
-apiInstance.webhooksRead(uuid, callback);
+apiInstance.webhooksRead(uuid, , callback);
 ```
 
 ### Parameters

@@ -31,11 +31,14 @@ Name | Type | Description | Notes
 **message** | **String** |  | [optional] 
 **embed_url_user_id** | **String** |  | [optional] 
 **inputs** | [**[SignerInputs]**](SignerInputs.md) |  | [optional] 
+**use_stamp_for_approve_only** | **Boolean** | Place an approval stamp on a document when a signer approves a document | [optional] 
 **embed_url** | **String** |  | [optional] 
 **attachments** | [**[SignerAttachment]**](SignerAttachment.md) |  | [optional] 
 **redirect_url** | **String** |  | [optional] 
+**redirect_url_declined** | **String** |  | [optional] 
 **after_document** | **String** |  | [optional] 
 **integrations** | [**[InlineDocumentSignerIntegrationData]**](InlineDocumentSignerIntegrationData.md) |  | [optional] 
+**password** | **String** | Require the signer to enter this password before signing a document. This field is write only. | [optional] 
 
 
 <a name="LanguageEnum"></a>

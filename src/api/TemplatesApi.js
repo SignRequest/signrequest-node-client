@@ -33,7 +33,7 @@
   /**
    * Templates service.
    * @module api/TemplatesApi
-   * @version 1.1.0
+   * @version 1.1.1
    */
 
   /**

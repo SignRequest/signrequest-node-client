@@ -36,7 +36,7 @@
   /**
    * The Signer model module.
    * @module model/Signer
-   * @version 1.1.0
+   * @version 1.1.1
    */
 
   /**

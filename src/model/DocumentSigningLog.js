@@ -36,7 +36,7 @@
   /**
    * The DocumentSigningLog model module.
    * @module model/DocumentSigningLog
-   * @version 1.1.0
+   * @version 1.1.1
    */
 
   /**

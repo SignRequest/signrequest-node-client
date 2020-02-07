@@ -36,7 +36,7 @@
   /**
    * The DocumentTeam model module.
    * @module model/DocumentTeam
-   * @version 1.1.0
+   * @version 1.1.1
    */
 
   /**

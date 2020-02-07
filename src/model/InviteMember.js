@@ -36,7 +36,7 @@
   /**
    * The InviteMember model module.
    * @module model/InviteMember
-   * @version 1.1.0
+   * @version 1.1.1
    */
 
   /**

@@ -51,7 +51,7 @@ var defaultClient = SignrequestClient.ApiClient.instance;
 // Configure API key authorization: Token
 var Token = defaultClient.authentications["Token"];
 Token.apiKey = "YOUR API KEY";
-Token.apiKeyPrefix["Authorization"] = "Token";
+Token.apiKeyPrefix = "Token";
 
 var api = new SignrequestClient.DocumentsApi();
 

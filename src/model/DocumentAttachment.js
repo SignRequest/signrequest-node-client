@@ -36,7 +36,7 @@
   /**
    * The DocumentAttachment model module.
    * @module model/DocumentAttachment
-   * @version 1.1.0
+   * @version 1.1.1
    */
 
   /**

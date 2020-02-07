@@ -36,7 +36,7 @@
   /**
    * The InlineTeamMember model module.
    * @module model/InlineTeamMember
-   * @version 1.1.0
+   * @version 1.1.1
    */
 
   /**
